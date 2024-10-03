@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor-general {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #760404;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #736f6f;
+}
+
+.contenido-principal {
+    display: flex;
+    margin-top: 20px;
+}
+
+.seccion-principal {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #760404;
+    padding: 20px;
+    text-align: center;
+    color: #f4f4f4;
+    border: 1px solid #000000;
+}
+
+.barra-lateral {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+    background-image: url("soad.jpg");
+    background-size: cover;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
